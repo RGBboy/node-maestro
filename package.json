@@ -1,0 +1,23 @@
+{
+  "name": "node-maestro",
+  "version": "0.0.1",
+  "description": "Interface a Pololu Maestro with Node.",
+  "author": "RGBboy <me@rgbboy.com>",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "serialport": ">=1.1.1"
+  },
+  "devDependencies": {
+    "mocha": ">=1.0.0",
+    "should": ">=1.0.0"
+  },
+  "scripts" : {
+    "start": "index.js",
+    "test" : "make test",
+    "unit" : "make unit",
+    "spec" : "make spec"
+  }
+}
