@@ -98,4 +98,13 @@ describe('util', function () {
 
   });
 
+  describe('.noop', function () {
+
+    it('should be a function', function (done) {
+      util.noop.should.be.a.function;
+      done();
+    });
+
+  });
+
 });
