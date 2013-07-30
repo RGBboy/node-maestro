@@ -82,4 +82,20 @@ describe('util', function () {
 
   });
 
+  describe('.radiansToTarget', function () {
+
+    it('should be a function', function (done) {
+      util.radiansToTarget.should.be.a.function;
+      done();
+    });
+
+    it('should convert radians to target Unsigned 14-bit Integer', function (done) {
+      util.radiansToTarget(Math.PI, 2432, 9728).should.equal(9728);
+      util.radiansToTarget(Math.PI/2, 2432, 9728).should.equal(6080);
+      util.radiansToTarget(0, 2432, 9728).should.equal(2432);
+      done();
+    });
+
+  });
+
 });
