@@ -1,11 +1,19 @@
 /**
- * Module dependencies.
+ * Node Maestro Unit Tests
+ */
+
+/**
+ * Module dependencies
  */
 
 var should = require('should'),
     Maestro = require('../');
 
-describe('Siphon', function () {
+/**
+ * Tests
+ */
+
+describe('Maestro', function () {
 
   describe('.version', function () {
 
