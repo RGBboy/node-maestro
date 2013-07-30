@@ -3,7 +3,7 @@
  */
 
 /**
- * Module dependencies
+ * Module Dependencies
  */
 
 var should = require('should'),
